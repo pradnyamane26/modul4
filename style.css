@@ -199,9 +199,12 @@ span{
         height: 27px;
     }
     .info1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 80%;
     }
     .info2{
-        width: 100%;
+        width: 80%;
     }
 }
