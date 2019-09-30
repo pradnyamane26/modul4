@@ -1,0 +1,207 @@
+/*global css*/
+*{
+    box-sizing: border-box;
+}
+/*html element css*/
+body{
+    overflow-x: hidden;
+}
+button{
+  margin-left:-3px;
+  border: none;
+  width: 131px;
+  height: 47px;
+  background-color: #000000;
+  color:white;
+  font-family: Rubik;
+  font-size: 0.73rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+}
+input[type="text"]{
+  width: 380px;
+  height: 47px;
+  border: solid 1px #dadada;
+}
+::placeholder {
+    padding-left: 18px;
+    width: 253px;
+    font-family: Rubik;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: 0.02px;
+    color: #808080;
+  }
+span{
+  margin-left: 0.68rem;
+  height: 27px;
+  font-family: Rubik;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.3px;
+  color: #808080;
+}
+/* img{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+} */
+/*class css*/
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.two{
+    align-self: center;
+    justify-content: center;
+}
+.Duis-aute-irure-dolo {
+    align-self: center;
+    width:866px;
+    height: 228px;
+    height:auto;
+    font-family: Rubik;
+    font-size: 3.88rem;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: -1.88px;
+    text-align: center;
+    color: #000000;
+}
+.Duis-aute-irure-dolo-subtext{
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+      align-self: center;
+      width: 679px;
+      height: auto;
+      font-family: Rubik;
+      font-size: 1.25rem;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #808080;
+}
+.info1{
+    display: flex;
+    justify-content: space-between;
+}
+.info2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tick{
+    margin-top: 0.75rem;
+    width: 170px;
+    display: flex;
+  
+}
+/*MEDIA QUERIES*/
+@media (min-width:768px) and (max-width:1024px){
+    body{
+        overflow-x: hidden;
+    }
+    .one {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        align-self: center;
+    }
+    .Duis-aute-irure-dolo {
+       font-size: 3.5rem;
+    }
+
+}
+@media (min-width:426px) and (max-width:767px){
+    body{
+        overflow-x: hidden;
+    }
+    .one {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        align-self: center;
+    }
+    .two{
+        width: 80%;
+    }
+    .Duis-aute-irure-dolo {
+       font-size: 2.8rem;
+       width: 80%;
+    }
+    .Duis-aute-irure-dolo-subtext{
+       font-size: 1rem;
+    }
+    input[type="text"] {
+        width: 455px;
+    }
+}
+@media (min-width:320px) and (max-width:425px) {
+    body{
+        overflow-x: hidden;
+    }
+    .one {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+        align-self: center;
+    }
+    .Duis-aute-irure-dolo {
+       font-size: 2.2rem;
+       align-self: inherit;
+       width: 100%;
+    }
+    .Duis-aute-irure-dolo-subtext{
+        width: 339px;
+    }
+    .two{
+        width: 60%;
+    }
+    button {
+        margin-left: -3px;
+        border: none;
+        width: 131px;
+        background-color: #000000;
+        color: white;
+        font-family: Rubik;
+        font-size: 0.5rem;
+    }
+    img {
+        width: 10px;
+        height: 10px;
+        object-fit: contain;
+    }
+    .info2 span {
+        font-size: 5px;
+    }
+    input[type="text"],button{
+        height: 27px;
+    }
+    .info1{
+        width: 80%;
+    }
+    .info2{
+        width: 80%;
+    }
+}
