@@ -176,7 +176,7 @@ span{
         width: 339px;
     }
     .two{
-        width: 60%;
+        width: 80%;
     }
     button {
         margin-left: -3px;
@@ -202,6 +202,6 @@ span{
         width: 80%;
     }
     .info2{
-        width: 80%;
+        width: 100%;
     }
 }
